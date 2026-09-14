@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "AC VRF",
     "chiller",
     "tata udara",
-    "ACWahana",
+    "RajaAC",
   ],
   openGraph: {
     title: `${site.name} - ${site.tagline}`,

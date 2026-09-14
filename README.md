@@ -1,6 +1,6 @@
-# ACWahana Website
+# RajaAC Website
 
-Company website for **ACWahana** — a Retail, Distributor & Contractor for air conditioning (AC) systems. Built with Next.js.
+Company website for **RajaAC** — a Retail, Distributor & Contractor for air conditioning (AC) systems. Built with Next.js.
 
 ## Features
 
@@ -34,7 +34,7 @@ Edit **`lib/site.ts`** to update content. Important fields:
 
 ```ts
 whatsapp: "6281234567890",   // WhatsApp number, international format (no + or spaces)
-email: "info@acwahana.com",  // contact email
+email: "info@rajaac.com",    // contact email
 phoneDisplay: "+62 812-...", // phone number shown on the site
 ```
 

@@ -1,23 +1,23 @@
 // Semua konten & konfigurasi website dikumpulkan di sini biar gampang diedit.
 export const site = {
-  name: "ACWahana",
+  name: "RajaAC",
   tagline: "Kontraktor, Distributor & Retail AC Terlengkap",
   // Ganti dengan nomor WhatsApp asli (format internasional tanpa + dan tanpa spasi)
   whatsapp: "6281234567890",
-  whatsappMessage: "Halo ACWahana, saya ingin bertanya seputar kebutuhan AC saya.",
-  email: "info@acwahana.com",
+  whatsappMessage: "Halo RajaAC, saya ingin bertanya seputar kebutuhan AC saya.",
+  email: "info@rajaac.com",
   phoneDisplay: "+62 812-3456-7890",
   experienceYears: 30,
   hero: {
     heading: "Solusi Tata Udara untuk Setiap Kebutuhan Anda",
     subheading:
-      "ACWahana adalah Retail, Distributor, dan Kontraktor AC yang dipercaya untuk proyek residential maupun komersial. Air Conditioning Specialist dengan pengalaman lebih dari 30 tahun di bidang tata udara.",
+      "RajaAC adalah Retail, Distributor, dan Kontraktor AC yang dipercaya untuk proyek residential maupun komersial. Air Conditioning Specialist dengan pengalaman lebih dari 30 tahun di bidang tata udara.",
   },
   about: {
-    heading: "Tentang ACWahana",
+    heading: "Tentang RajaAC",
     body: [
-      "ACWahana adalah Retail, Distributor, dan Kontraktor AC yang sudah dipercaya oleh partner sejak lama, menangani proyek skala residential maupun komersial.",
-      "Sebagai Distributor AC berpengalaman, ACWahana dikenal sebagai Specialist AC untuk segala kebutuhan seperti AC Split, AC Cassette, AC Floor Standing, sampai AC besar seperti AC VRV / VRF, AC Duct, atau Chiller — begitu juga untuk tata udara seperti Sistem Ventilasi (Ventilation System).",
+      "RajaAC adalah Retail, Distributor, dan Kontraktor AC yang sudah dipercaya oleh partner sejak lama, menangani proyek skala residential maupun komersial.",
+      "Sebagai Distributor AC berpengalaman, RajaAC dikenal sebagai Specialist AC untuk segala kebutuhan seperti AC Split, AC Cassette, AC Floor Standing, sampai AC besar seperti AC VRV / VRF, AC Duct, atau Chiller — begitu juga untuk tata udara seperti Sistem Ventilasi (Ventilation System).",
       "Kami hadir dengan tujuan membangun kepercayaan sebagai mitra dalam memberikan solusi dan menangani setiap kebutuhan AC Anda, baik dalam skala residensial, komersial, maupun industrial di seluruh Indonesia.",
     ],
   },

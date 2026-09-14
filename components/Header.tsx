@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#beranda" className="logo">
           <span className="logo-mark">❄</span>
           <span>
-            AC<b>Wahana</b>
+            Raja<b>AC</b>
           </span>
         </a>
 

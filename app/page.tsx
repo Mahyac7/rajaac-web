@@ -115,7 +115,7 @@ export default function Home() {
             <div className="cta">
               <h2>Siap Membantu Kebutuhan AC Anda</h2>
               <p>
-                Konsultasikan kebutuhan tata udara Anda dengan tim ACWahana. Kami
+                Konsultasikan kebutuhan tata udara Anda dengan tim RajaAC. Kami
                 berikan solusi terbaik untuk skala residensial, komersial, maupun
                 industrial.
               </p>
@@ -138,7 +138,7 @@ export default function Home() {
           <div>
             <div className="logo" style={{ color: "#fff", marginBottom: 12 }}>
               <span className="logo-mark">❄</span>
-              <span>ACWahana</span>
+              <span>RajaAC</span>
             </div>
             <p style={{ maxWidth: 360 }}>
               Retail, Distributor, dan Kontraktor AC yang dipercaya untuk proyek
