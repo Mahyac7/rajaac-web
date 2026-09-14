@@ -2,11 +2,20 @@
 export const site = {
   name: "RajaAC",
   tagline: "Kontraktor, Distributor & Retail AC Terlengkap",
-  // Ganti dengan nomor WhatsApp asli (format internasional tanpa + dan tanpa spasi)
-  whatsapp: "6281234567890",
+  // Pesan default yang muncul saat pelanggan membuka chat WhatsApp
   whatsappMessage: "Halo RajaAC, saya ingin bertanya seputar kebutuhan AC saya.",
-  email: "info@rajaac.com",
-  phoneDisplay: "+62 812-3456-7890",
+  // Daftar admin WhatsApp (nomor format internasional: 62 tanpa + / spasi)
+  whatsappAdmins: [
+    { label: "Admin 1", number: "6281384751929" },
+    { label: "Admin 2", number: "6287877627398" },
+  ],
+  phone: "02159992291",
+  phoneDisplay: "021-5999-2291",
+  email: "raja.ac898@gmail.com",
+  instagram: "rajaac.gs",
+  instagramUrl: "https://instagram.com/rajaac.gs",
+  address:
+    "Jl. Kelapa Lilin Raya, Ruko Sevenseas (7C's) Blok DF2 No. 12, Gading Serpong, Tangerang Selatan",
   experienceYears: 30,
   hero: {
     heading: "Solusi Tata Udara untuk Setiap Kebutuhan Anda",
@@ -59,7 +68,8 @@ export const site = {
   ],
 };
 
-export function whatsappLink() {
+// Link WhatsApp untuk nomor tertentu (default: Admin 1)
+export function whatsappLink(number: string = site.whatsappAdmins[0].number) {
   const text = encodeURIComponent(site.whatsappMessage);
-  return `https://wa.me/${site.whatsapp}?text=${text}`;
+  return `https://wa.me/${number}?text=${text}`;
 }

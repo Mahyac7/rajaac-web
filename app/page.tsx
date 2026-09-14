@@ -119,14 +119,19 @@ export default function Home() {
                 berikan solusi terbaik untuk skala residensial, komersial, maupun
                 industrial.
               </p>
-              <a
-                href={whatsappLink()}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Hubungi via WhatsApp
-              </a>
+              <div className="cta-actions">
+                {site.whatsappAdmins.map((admin) => (
+                  <a
+                    key={admin.number}
+                    href={whatsappLink(admin.number)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    WhatsApp {admin.label}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </section>
@@ -158,15 +163,37 @@ export default function Home() {
           <div>
             <h4>Kontak</h4>
             <ul>
+              {site.whatsappAdmins.map((admin) => (
+                <li key={admin.number}>
+                  <a
+                    href={whatsappLink(admin.number)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp {admin.label}
+                  </a>
+                </li>
+              ))}
               <li>
-                <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
-                  {site.phoneDisplay}
-                </a>
+                <a href={`tel:${site.phone}`}>Telp: {site.phoneDisplay}</a>
               </li>
               <li>
                 <a href={`mailto:${site.email}`}>{site.email}</a>
               </li>
+              <li>
+                <a
+                  href={site.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram: @{site.instagram}
+                </a>
+              </li>
             </ul>
+          </div>
+          <div>
+            <h4>Workshop</h4>
+            <p style={{ maxWidth: 260 }}>{site.address}</p>
           </div>
         </div>
         <div className="container footer-bottom">

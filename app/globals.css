@@ -401,6 +401,13 @@ img {
   margin: 0 auto 26px;
 }
 
+.cta-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .cta .btn-primary {
   background: #fff;
   color: var(--brand);
@@ -419,7 +426,7 @@ img {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1.4fr 1.4fr;
   gap: 40px;
 }
 
